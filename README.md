@@ -2,64 +2,20 @@
 
 Este proyecto es una práctica en **Node.js** que cubre los siguientes conceptos fundamentales:
 
-- Variables y constantes
-- Bucles
-- Condiciones
-- Funciones
-- Exportaciones e importaciones de funciones
+crear una api de la practica gestión de tareas la cual consiste en crear varias tareas 
+y que estas tarear puedan hacer lo siguiente: agregar una nueva tarea, mostrar la lista de las tareas, actualizar las tareas y eliminar la tarea selecionada atravez de su indice
 
-## 📂 Estructura del Proyecto
+# código 
 
-El proyecto consta de dos archivos principales:
+el código de la aplicación de gestión de tareas esta compuesto de variables, constantes, funciones y una api creada en node js con express
 
-1. **`index.js`** → Archivo principal que importa y usa las funciones.
-2. **`tasks.js`** → Archivo que contiene las funciones de manejo de tareas y las exporta.
+# link de vercel para ejecutar la api 
 
-## 📌 Instalación y Ejecución
+https://v0-git-hub-repository-link-murex.vercel.app/
 
-### 1️⃣ Requisitos
-Asegúrate de tener instalado **Node.js** en tu sistema. Puedes verificarlo con:
+# link de gitgub para ver el repositorio
 
-```sh
-node -v
-```
+https://github.com/Jhonny-B/practica1-gestordetareas-main.git
 
-Si no lo tienes instalado, descárgalo desde [aquí](https://nodejs.org/).
 
-### 2️⃣ Clonar el Repositorio
-
-```sh
-git clone https://github.com/KervinCruzARAP/practica1-gestordetareas.git
-cd practica1-gestordetareas
-```
-
-### 3️⃣ Ejecutar el Código
-
-Para correr el proyecto, ejecuta:
-
-```sh
-node index.js
-```
-
-## 📖 Uso
-
-### Agregar una Tarea
-El código agregará varias tareas al sistema y las mostrará en la consola.
-
-### Listar Tareas
-Muestra la lista de tareas actuales.
-
-### Eliminar una Tarea
-Se elimina una tarea por su índice en la lista y se vuelve a listar para verificar los cambios.
-
-## ✍️ Mandato para los Estudiantes
-
-1. **Clonen el repositorio** en su máquina local.
-2. **Revisen el código** en `tasks.js` e `index.js` para comprender su funcionamiento.
-3. **Modifiquen el código** agregando una nueva función llamada `updateTask(index, newTask)`, que permita actualizar el contenido de una tarea existente.
-4. **Prueben la función** llamándola desde `index.js` y verificando su funcionamiento en la consola.
-5. **Suban su versión modificada** a un repositorio personal y compartan el enlace.
-
-## 📜 Licencia
-Este proyecto es de uso libre para fines educativos.
 
